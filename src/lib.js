@@ -1,7 +1,7 @@
 'use strict'
 require('colors');
 const _ = require('lodash');
-const FlexEther = require('flex-ether');
+const FlexEther = require('flex-ether-fix');
 const BigNumber = require('bignumber.js');
 const ethjs = require('ethereumjs-util');
 const ethwallet = require('ethereumjs-wallet');

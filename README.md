@@ -28,7 +28,16 @@ npm install -g send-ether-fix
 yarn global add send-ether-fix
 ```
 
-## Examples
+## Examples Nodejs
+```js
+const {toWallet} = require('send-ether-fix');
+let x = toWallet({
+    mnemonic: 'maple proof swim swap three crisp finger digital discover pave used affair',
+    mnemonicIndex: 2
+  });
+console.log(x)
+```
+## Examples CLI
 ```bash
 # Recipient of ether. May also be an ENS name.
 DST='0x0420DC92A955e3e139b52142f32Bd54C6D46c023'
