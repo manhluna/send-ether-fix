@@ -3,9 +3,6 @@
     "name": "Manh Luna",
     "email": "tuhoc98@gmail.com"
   },
-  "bin": {
-    "send-ether": "./src/send-ether.js"
-  },
   "dependencies": {
     "bip39": "^2.5.0",
     "ethereumjs-util": "^6.1.0",
@@ -35,7 +32,7 @@
     "url": "git+https://github.com/manhluna/send-ether-fix.git"
   },
   "scripts": {
-    "test": "mocha --timeout 10000 ./test/*.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "1.4.0"
 }
