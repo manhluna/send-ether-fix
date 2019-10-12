@@ -28,7 +28,7 @@
     "ens"
   ],
   "license": "Apache-2.0",
-  "main": "src/lib.js",
+  "main": "src/index.js",
   "name": "send-ether-fix",
   "repository": {
     "type": "git",
